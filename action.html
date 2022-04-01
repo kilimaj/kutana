@@ -31,10 +31,10 @@
             <a href="#" class="nav-link">Sign in</a>
           </li>
           <li class="nav-item">
-            <button class="btn btn-outline-secondary btn-lg text-info font-weight-bold">Join a meeting</button>
+            <button class="btn btn-outline-secondary btn-lg text-info font-weight-bold join-meeting">Join a meeting</button>
           </li>
           <li class="nav-item">
-            <button class="btn btn-info btn-lg text-light font-weight-bold">Start a meeting</button>
+            <button class="btn btn-info btn-lg text-light font-weight-bold new-meeting">Start a meeting</button>
           </li>
           </li>
         </ul>
@@ -48,7 +48,7 @@
                 <p style="font-size: 20px;">Reimagine and redesinging the virtual meetings experience, whether its just casual catchup, family meetings or closing a business deal its always free!</p>
                 <ul class="display-center justify-content-start">
                     <li style="padding: o;">
-                        <button class="btn btn-lg text-light font-weight-bold display-center"
+                        <button class="btn btn-lg text-light font-weight-bold display-center new-meeting"
                         style="background-color: #01796b;">
                             <span class="material-icons mr-2">video_call</span>
                             New meeting
@@ -58,10 +58,10 @@
                         <button class="btn btn-lg btn-outline-secondary text-dark font-weight-bold display-center"
                         style="background-color: #ffffff;">
                             <span class="material-icons mr-2">keyboard</span>
-                            <input type="text" placeholder="Enter meeting ID" style="border: none;">
+                            <input type="text" placeholder="Enter meeting ID" style="border: none;" class="enter-code">
                         </button>
                     </li>
-                    <li class="text-dark pl-2 font-weight-bold cursor-pointer">Join</li>
+                    <li class="text-dark pl-2 font-weight-bold cursor-pointer join-action">Join</li>
                 </ul>
             </div>
             <div class="container w-50 display-center">
@@ -70,5 +70,7 @@
         </div>
     </main>
     <footer class="container"><h6>Learn more about <span class="learn-more text-info">kutana conferences</span></h6></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="public/assets/js/action.js"></script>
   </body>
 </html>
